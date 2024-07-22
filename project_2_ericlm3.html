@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Project 2 ericlm3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styling.css">
+<script src="scripts.js" type="text/javascript"></script>
+<script src="https://d3js.org/d3.v4.js"></script> <!-- D3 library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.5.1/d3-annotation.js"></script> <!-- Annotations library-->
+
+<body onload=" slideOne()">
+    <div class="mainDiv">
+        <div class="topbar">
+            <h1>Fuel Performace in 2017 Cars</h1>
+        </div>
+        <div class="container"/>
+        <div class="slideBar">
+            <button class="navBtn" onclick="changeSlide(-1)"><</button>
+            <p id="1" class="pSelected">Slide 1</p>
+            <p id="2">Slide 2</p>
+            <p id="3">Slide 3</p>
+            <button class="navBtn" onclick="changeSlide(1)">></button>
+        </div>
+        <div class="container"/>
+        <div id="slide"/>
+
+    </div>
+
+</body>
+</html>

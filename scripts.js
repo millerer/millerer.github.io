@@ -370,7 +370,7 @@ const slideTwo = () =>{
             .attr("style","font-size: medium; font-weight: bold")
             .append();
             chart.append("g")
-            .call(d3.axisLeft(yStart))
+            .call(d3.axisLeft(yEnd))
 
             // set the bar chart (end of animation)
             chart.selectAll("rect")
@@ -385,7 +385,6 @@ const slideTwo = () =>{
             .attr("class", styleClass)
             chart.append("g")
             .attr("transform","translate("+0+","+370+")")
-            .call(d3.axisLeft(yEnd))
 
             // setup hover tooltip
             chart.selectAll("rect")
@@ -454,8 +453,8 @@ const slideThree= () =>{
     `   
         <div id="textBox">
             <h3>Save Fuel With Your Next Car</h3>
-            While engine composition and fuel type both affect performance, certain countries produce 
-            cars above the rest.
+            While engine composition and fuel type both affect performance, some countries produce 
+            cars with higher overall efficiency.
             <br><br>
             For all fuel types, Sweden, Japan, and Korea have the best average MPG. Cars from these countries 
             will be a good place to look for your next purchase.

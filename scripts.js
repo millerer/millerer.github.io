@@ -697,7 +697,7 @@ const slideThree= () =>{
                     x: 454,
                     y: 110,
                     dy: 137,
-                    dx: 100
+                    dx: 50
                 }]
                 const makeAnnotations = d3.annotation()
                     .editMode(false)

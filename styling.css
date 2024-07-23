@@ -103,11 +103,11 @@ html, body{
     float: left;
     position: absolute;
     margin-left: 1%;
-    margin-top: 1%;
+    margin-top: 0%;
     padding-left: 1%;
     padding-right: 1%;
     width: 22%;
-    height: 90%;
+    height: 98%;
     font-size:medium;
     background-color: rgb(255, 255, 255);
 }
